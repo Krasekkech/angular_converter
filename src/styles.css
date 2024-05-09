@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: WebFont;
+  src: url('/src/assets/Inter-Bold.ttf')
+}
+
+
+app-root{
+
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+body {
+  font-family: WebFont, serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 700px;
+}

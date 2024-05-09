@@ -1,0 +1,31 @@
+@font-face {
+  font-family: WebFont;
+  src: url('/src/assets/MADE Outer Sans Black PERSONAL USE.otf')
+}
+
+.converter__container{
+  margin: 10px;
+}
+
+label{
+  font-family: WebFont serif;
+  font-weight: 20;
+}
+
+
+.converter__RUS_container, .converter__EUR_container, .converter__USD_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+input{
+  height: 20px;
+  border-style: none;
+}
+
+input:active{
+  border-style: none;
+}

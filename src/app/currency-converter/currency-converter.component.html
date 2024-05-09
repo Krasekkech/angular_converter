@@ -1,0 +1,14 @@
+<div class="converter__container">
+<div class="converter__RUS_container">
+  <label>RUS</label>
+  <input [(ngModel)]="RUSCurrency" type="number" (input)="onRUSInputChange($event)">
+</div>
+<div class="converter__EUR_container">
+  <label [(ngModel)]="EURCurrency">EUR</label>
+  <input [(ngModel)]="EURCurrencyRate"   type="number"  (input)="onEURInputChange($event)">
+</div>
+  <div class="converter__USD_container">
+    <label [(ngModel)]="USDCurrency">USD</label>
+    <input [(ngModel)]="USDCurrencyRate" type="number" (input)="onUSDInputChange($event)" >
+  </div>
+</div>
